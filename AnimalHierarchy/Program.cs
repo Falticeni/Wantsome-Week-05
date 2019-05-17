@@ -24,7 +24,7 @@ namespace AnimalHierarchy
             Dog Caine4 = new Dog(7, "C4", "female");
             Dog[] Caini = new[] { Caine1, Caine2, Caine3, Caine4 };
 
-            Cat Pisica1 = new Kitten(2, "P1", "female"); // e corect?
+            Cat Pisica1 = new Kitten(2, "P1", "female"); 
             Cat Pisica2 = new Kitten(6, "P2", "female");
             Cat Pisica3 = new Kitten(5, "P3", "female");
             Cat Pisica4 = new Kitten(1, "P4", "female");
