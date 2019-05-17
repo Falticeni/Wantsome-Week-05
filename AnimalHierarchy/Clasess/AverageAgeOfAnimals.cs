@@ -17,7 +17,7 @@ namespace AnimalHierarchy.Clasess
                 sumAge += animal.Age;
                 nrOfAnimals++;
             }
-            Console.WriteLine("Varsta medie a broastelor este {0}:", sumAge / nrOfAnimals);
+            Console.WriteLine("Varsta medie a broastelor este {0}.", sumAge / nrOfAnimals);
         }
         public static void PrintDogAvaregeAge(Dog[] Caini)
         {
@@ -28,7 +28,7 @@ namespace AnimalHierarchy.Clasess
                 sumAge += animal.Age;
                 nrOfAnimals++;
             }
-            Console.WriteLine("Varsta medie a cainilor este {0}:", sumAge / nrOfAnimals);
+            Console.WriteLine("Varsta medie a cainilor este {0}.", sumAge / nrOfAnimals);
         }
 
         public static void PrintKittenAvaregeAge(Kitten[] Pisici)
@@ -40,7 +40,7 @@ namespace AnimalHierarchy.Clasess
                 sumAge += animal.Age;
                 nrOfAnimals++;
             }
-            Console.WriteLine("Varsta medie a pisicilor este {0}:", sumAge / nrOfAnimals);
+            Console.WriteLine("Varsta medie a pisicilor este {0}.", sumAge / nrOfAnimals);
         }
         public static void PrintTomcatAvaregeAge(Tomcat[] Motani)
         {
@@ -51,7 +51,7 @@ namespace AnimalHierarchy.Clasess
                 sumAge += animal.Age;
                 nrOfAnimals++;
             }
-            Console.WriteLine("Varsta medie a motanilor este {0}:", sumAge / nrOfAnimals);
+            Console.WriteLine("Varsta medie a motanilor este {0}.", sumAge / nrOfAnimals);
         }
     }
 }
