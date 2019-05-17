@@ -24,23 +24,23 @@ namespace AnimalHierarchy
             Dog Caine4 = new Dog(7, "C4", "female");
             Dog[] Caini = new[] { Caine1, Caine2, Caine3, Caine4 };
 
-            Cat Pisica1 = new Kitten(2, "P1", "female"); 
-            Cat Pisica2 = new Kitten(6, "P2", "female");
-            Cat Pisica3 = new Kitten(5, "P3", "female");
-            Cat Pisica4 = new Kitten(1, "P4", "female");
-            Cat Motan1 = new Tomcat(5, "M1", "male");
-            Cat Motan2 = new Tomcat(5, "M2", "male");
-            Cat Motan3 = new Tomcat(7, "M3", "male");
-            Cat Motan4 = new Tomcat(6, "M4", "male");
-            Cat[] Pisici = new[] { Motan1, Motan2, Motan3, Motan4, Pisica1, Pisica2, Pisica3, Pisica4 };
+            Kitten Pisica1 = new Kitten(2, "P1", "female");
+            Kitten Pisica2 = new Kitten(6, "P2", "female");
+            Kitten Pisica3 = new Kitten(5, "P3", "female");
+            Kitten Pisica4 = new Kitten(1, "P4", "female");
+            Kitten[] Pisici = new[] { Pisica1, Pisica2, Pisica3, Pisica4 };
+
+            Tomcat Motan1 = new Tomcat(5, "M1", "male");
+            Tomcat Motan2 = new Tomcat(5, "M2", "male");
+            Tomcat Motan3 = new Tomcat(7, "M3", "male");
+            Tomcat Motan4 = new Tomcat(6, "M4", "male");
+            Tomcat[] Motani = new[] { Motan1, Motan2, Motan3, Motan4 };
 
             AverageAgeOfAnimals.PrintBroasteAvaregeAge(Broaste);
             AverageAgeOfAnimals.PrintDogAvaregeAge(Caini);
             AverageAgeOfAnimals.PrintKittenAvaregeAge(Pisici);
-            AverageAgeOfAnimals.PrintTomcatAvaregeAge(Pisici);
+            AverageAgeOfAnimals.PrintTomcatAvaregeAge(Motani);
 
-
-            Console.WriteLine("55");
             Console.ReadKey();
         }
     }
